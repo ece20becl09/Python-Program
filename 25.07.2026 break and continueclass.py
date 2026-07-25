@@ -44,13 +44,21 @@
 
 #Print List Elements Until "san" Is Found at Index 7 Using break
 
-alist=['praveen','san','san','kiran','san','ashim','sumit','san','ashok','san']
-for i in range(0,len(alist),1):
-    if (i%2 != 0):
-        if (i == 7):
-            if (alist[i] == "san"):
-                break
-        else:
-            print (alist[i])
+# alist=['praveen','san','san','kiran','san','ashim','sumit','san','ashok','san']
+# for i in range(0,len(alist),1):
+#     if (i%2 != 0):
+#         if (i == 7):
+#             if (alist[i] == "san"):
+#                 break
+#         else:
+#             print (alist[i])
+#     else:
+#         print (alist[i])
+
+
+alist=['praveen','san','san','kiran','san','ashimz','sumit','san','ashok','san']
+for i in alist:
+    if('z' in i):
+        break
     else:
-        print (alist[i])
+        print (i)
