@@ -56,6 +56,7 @@
 #         print (alist[i])
 
 
+#Print List Elements Until an Element Contains 'z' Using break
 alist=['praveen','san','san','kiran','san','ashimz','sumit','san','ashok','san']
 for i in alist:
     if('z' in i):
