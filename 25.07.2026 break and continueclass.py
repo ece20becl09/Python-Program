@@ -64,4 +64,24 @@
 #     else:
 #         print (i)
 
+# Divide each number by 2, if odd print, if even break
+
+alist=['10','23','34','44','55','66','78']
+for i in alist:
+    if (int(i)%2 == 0):
+        print ("Number {0} is even".format(i))
+        anp=int(input("Enter the another input\n"))
+        opt=int(input("entere '1' to add\n'2' to sub"))
+        if (opt == 1):
+            sop=int(i)+anp
+            if (sop%2 == 0):
+                break
+            else:
+                print ("Sum is {0}".format(sop))
+        elif(opt == 2):
+            mop=int(i)-anp
+            print ("Differenn is {0}".format(mop))
+    else:
+        print ("Number {0} is odd".format(i))
+    print ("===================================================")
 
