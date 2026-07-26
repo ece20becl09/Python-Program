@@ -1,18 +1,22 @@
 def p1():
-    print ("Entered input is {0}".format(a))
-    print ("True")
-def p2():
-    print ("Entered input is {0}".format(a))
-    print ("False")
+    print("Entered input is {0}".format(a))
+    print("True")
 
-a=input("Enter the input\n")
-if (a == "praveen"):
+
+def p2():
+    print("Entered input is {0}".format(a))
+    print("False")
+
+
+a = input("Enter the input\n")
+
+if a == "praveen":
     p1()
-elif (a == "san"):
+elif a == "san":
     p1()
-elif (a == "abhi"):
+elif a == "abhi":
     p2()
-elif (a == "ajay"):
+elif a == "ajay":
     p2()
 else:
     p1()
