@@ -155,21 +155,35 @@
 #     sys.exit(1)
 
 #data types:-
-name = "rajesh"
-age = 20
-percentage = 85.5
-is_student = True
-print(type(name))
-print(type(age))
-print(type(is_student))
+# name = "rajesh"
+# age = 20
+# percentage = 85.5
+# is_student = True
+# print(type(name))
+# print(type(age))
+# print(type(is_student))
+
+#Taking User Input value:-
+
+# name = input("Enter your name: ")
+# print("Your name is : " + name)
+#
+# city = input("Enter your city: ")
+# print("Your city is", city)
 
 
-
-
+#Converting input to numbers:-
+# age = int(input("Enter your age: "))
+# print("Your age is", age)
+# height = float(input("Enter your height: "))
+# print("Your height is", height)
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# print("Sum:", a + b)
 
 #Arithmetic operators:-
 a = int(input("Enter first number: "))
-b = int(input("Enter second number: ")) 
+b = int(input("Enter second number: "))
 print("Addition:", a + b)
 print("Subtraction:", a - b)
 print("Multiplication:", a * b)
