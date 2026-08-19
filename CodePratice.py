@@ -136,20 +136,33 @@
 #     winsound.MessageBeep(winsound.MB_ICONHAND)
 #     print(e)
 
-import sys
-import winsound
+# import sys
+# import winsound
+#
+# number = 10
+# expected = 20
+#
+# try:
+#     assert number == expected, (
+#         f"Logic mismatch: expected {expected}, but got {number}"
+#     )
+#
+#     print("Logic is correct")
+#
+# except AssertionError as error:
+#     print(error)
+#     winsound.Beep(1000, 1000)
+#     sys.exit(1)
 
-number = 10
-expected = 20
+#data types:-
+name = "rajesh"
+age = 20
+percentage = 85.5
+is_student = True
+print(type(name))
+print(type(age))
+print(type(is_student))
 
-try:
-    assert number == expected, (
-        f"Logic mismatch: expected {expected}, but got {number}"
-    )
 
-    print("Logic is correct")
 
-except AssertionError as error:
-    print(error)
-    winsound.Beep(1000, 1000)
-    sys.exit(1)
+
